@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMatchName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="No records found" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMatchTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMatchName"
+        tools:text="No records found" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
